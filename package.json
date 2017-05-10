@@ -1,0 +1,18 @@
+{
+  "name": "appinfoservicemodels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.sleepaiden.com:service-infrastructure/AppInfoServiceModels.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "~4.9.8"
+  }
+}
