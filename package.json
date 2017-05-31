@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.sleepaiden.com:service-infrastructure/AppInfoServiceModels.git"
+    "url": "git@github.com:hchim/AppInfoServiceModels.git"
   },
   "author": "",
   "license": "ISC",
