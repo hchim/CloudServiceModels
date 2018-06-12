@@ -1,6 +1,6 @@
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-var schema = mongoose.Schema({
+const schema = mongoose.Schema({
     appName: {
         type: String,
         required: true
@@ -26,5 +26,5 @@ schema.set('autoIndex', true);
 
 // methods
 
-module.exports = schema;
+export default schema;
 

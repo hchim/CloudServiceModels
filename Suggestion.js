@@ -1,6 +1,6 @@
-var mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-var sugSchema = mongoose.Schema({
+const suggestionSchema = mongoose.Schema({
     userId: {
         type: String,
         required: true
@@ -33,10 +33,10 @@ var sugSchema = mongoose.Schema({
 
 // indexes
 
-sugSchema.index({ appName: 1, appVersion: 1, createTime: 1});
+suggestionSchema.index({ appName: 1, appVersion: 1, createTime: 1});
 
-sugSchema.set('autoIndex', true);
+suggestionSchema.set('autoIndex', true);
 
 // methods
 
-module.exports = sugSchema;
+export default suggestionSchema;
